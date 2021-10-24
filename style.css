@@ -1,0 +1,210 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-kontejner{
+    background-color:rgb(238, 234, 234);
+    width: 1080px;
+}
+
+.header{
+    display: flex;
+    background-color: rgb(1, 1, 95);
+    width: 1080px;
+}
+.header span{
+    margin-left: 20px;
+    color: white;
+}
+
+.header p{
+margin-left: 660px;
+color: white;
+}
+
+
+.main-header{
+    width: 1100px;
+}
+
+
+
+
+.main-content{
+    display: flex;
+}
+
+.filter{
+    width: 250px;
+    background-color: white;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 1px;
+    margin-left: 40px;	
+    padding-left: 20px;
+    height: 520px;
+}
+
+h3{
+    color: rgb(1, 1, 95);
+}
+#min{
+    width: 50px;
+}
+#max{
+    width: 50px;
+}
+.price-range{
+    display: flex;
+}
+
+.price-range p{
+    margin: 20px 5px 5px 5px;
+}
+
+.price-range input{
+height: 20px;
+border-radius: 11%;
+border: 1px solid grey;
+}
+
+
+/* ///////////////////column2//////////////////////////// */
+
+.flights{
+    background-color: white;
+    width: 700px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 1px;
+    height: 600px;	}
+
+
+
+.flights-header{
+    height: 120px;
+}
+
+.flights-header h2{
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 0px;
+    
+    
+}
+
+tbody tr td button{
+width: 65px;
+height: 30px;
+background-color:rgb(1, 1, 95);
+color: white;
+border-radius: 5px;
+border: none;
+}
+.tab-headers{
+    display: flex;
+    border: 1px solid grey;
+    background-color: rgb(238, 234, 234); 
+    height: 30px;   
+}
+.tab-headers div{
+    margin-left: 60px;
+    padding-top: 5px;
+    color:rgb(1, 1, 95);
+    font-weight: 700;
+
+
+}
+
+
+tr td:nth-child(6) span{
+color: rgb(1, 1, 95);
+}
+
+.tab-headers div:nth-child(3){
+    margin-left: 30px;
+}
+
+.tab-headers div:nth-child(5){
+    margin-left: 55px;
+}
+
+table{
+    border-collapse: collapse;
+}
+td span{
+display: block;
+font-size: 0.7em;
+}
+
+td{
+    padding-left: 65px;
+    padding-top: 20px;
+    border-bottom: 1px solid grey;
+}
+
+span{
+    color: grey;
+    text-align: center;
+}
+.main-inputs{
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+
+.main-inputs input{
+    height: 30px;
+    border-radius: 5px;
+    border: 0.5px solid grey;
+    margin-left: 15px;
+    background: whitesmoke;
+}
+
+.main-inputs input:first-child{
+    width: 150px;
+}
+
+.main-inputs input:nth-child(2){
+    width: 170px;
+}
+
+.main-inputs input:nth-child(3){
+    background: url(date.jpg) no-repeat right;
+    margin-right: 2px;
+    width: 170px;
+}
+
+.main-inputs input:nth-child(4){
+    background: url(date.jpg) no-repeat right;
+    margin-right: 2px;
+    width: 170px;
+}
+select{
+    width: 120px;
+    height: 34px;
+    border-radius: 5px;
+    border: 0.5px solid grey;
+    background: rgb(238, 234, 234);
+}
+.main-inputs input:first-child{
+    background: url(location.png) no-repeat right;
+}
+
+
+.main-inputs input:nth-child(2){
+    background: url(location.png) no-repeat right;
+}
+
+.main-inputs button{
+height: 34px;
+border-radius: 5px;
+padding: 5px;
+width: 115px;
+background-color: rgb(1, 1, 95);
+color: white;
+border: none;
+}
+
+.trip-selection{
+    margin-left: 35px;
+}
